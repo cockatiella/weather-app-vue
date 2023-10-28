@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.40);
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.40);
+}
+
+.app {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902030.jpg?w=996&t=st=1698501898~exp=1698502498~hmac=5e1ffb447ca850c2ad4d5ceed1d909b9e67cd4a29991ff8eb93089e2a741e95d');
+
+}
+
+main {
+  height: 100vh;
+  padding: 20px;
+}
+
+.search-box {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  color: #313131;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  outline: 3px solid lavender;
+  background: rgba(255, 255, 255, 0.5);
+  transition: 0.4s;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.40);
+}
+
+.search-bar:focus {
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 16px;
+}
+
+.weather-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.40);
+}
+
+.location {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: 700;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.40);
+}
+
+.date {
+  font-size: 2.4rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.weather-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.temp {
+  display: inline-block;
+  font-size: 5rem;
+  padding: 1.5rem;
+  margin: 30px 0;
+  font-weight: bolder;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.40);
+}
+
+.weather {
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.40);
+}
